@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(192, 178, 156);
+}
+.pealkiri{
+    color: rgb(5, 5, 147);
+    font-family: 'Koulen', cursive;
+    text-align: center;
+    position: relative;
+    animation: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes header {
+    0% {top: -250px;}
+    100% {top: 10px;;}
+}
+
+.allikas{
+    text-align: center;
+    animation: link;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards; 
+}
+@keyframes link {
+    0% {opacity: 0;} 
+    100% {opacity: 1;}
+}
+.pealkiri2{
+    text-align: center;
+    color: darkblue;
+}
+.Pilt{
+    font-family: 'Koulen', cursive;
+    text-align: center; 
+   
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+  }
+.Nimekiri{
+    text-align: center;
+    margin: 3rem auto;
+    width: 200px;
+    font-family: 'Koulen', cursive;
+    color: darkblue;
+    position: relative;
+    animation: textleft;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes textleft{
+    0% {left: -1000px;}
+    85% {left: 20px;}
+    100% {left: 0;}
+}
+.tabel1{
+    text-align: center;
+    border: 1rem solid;
+    margin: 1rem auto;
+    color: darkblue;
+}
+.Koostisosad {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    color: darkblue;
+} 
+.Koostiosad-table {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    color: darkblue;
+}
+.Valmistamine{
+    text-align: center;
+    margin: 1rem  auto;
+    width: 400px;
+    font-family: 'Koulen', cursive;
+    color: darkblue;
+    margin-top: 32px;
+    position: relative;
+    text-align: right;
+    animation: textright;
+    animation-duration: 4s;
+}
+@keyframes textright{
+    0%{right: -1000px;}
+    85%{right: 50px;}
+    100%{right: 0;}
+}
+.Fontcolor {
+    color: blue
+}
